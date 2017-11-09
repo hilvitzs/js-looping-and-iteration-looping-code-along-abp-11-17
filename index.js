@@ -9,6 +9,8 @@ function printBadges(names) {
 
 function tailsNeverFails() {
   while(Math.random() >= 0.5) {
-    
+    tailsNeverFails();
   }
+
+  return ''
 }
