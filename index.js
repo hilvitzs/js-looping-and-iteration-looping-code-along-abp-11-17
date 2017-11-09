@@ -7,11 +7,6 @@ function printBadges(names) {
   return names;
 }
 
-function maybeTails() {
-  Math.random() >= 5;
-}
-
-while (maybeTails()) {
-  let times = 1;
-  times++;
+function tailsNeverFails() {
+  
 }
